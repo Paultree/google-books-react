@@ -1,6 +1,7 @@
 # google-books
 
 Google Books Project built with React.
+./project_img.png
 
 # Google Books API Search Engine
 
