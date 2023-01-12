@@ -1,9 +1,16 @@
-# google-books
+# google-books-API
 
-Google Books Project built with React.
-./project_img.png
+# Image
 
-# Google Books API Search Engine
+![Alt Text](project-demo.gif)
+
+# Link
+
+# Setup
+
+- npm i react
+- npm i sass
+- Google book API
 
 ## Outline
 
@@ -60,6 +67,32 @@ Application Design (required):
 - [Using Async Await](https://dmitripavlutin.com/javascript-fetch-async-await/)
 - [Using Postman to Test APIs](https://www.blazemeter.com/blog/how-use-postman-test-apis)
 - [Download Postman](https://www.postman.com/downloads/)
+
+# Approach
+
+- Initially created the application using native JS, HTML and CSS. Link to repo: https://github.com/Paultree/google-books
+- To close some gaps in my React JS knowledge, decided to re-do the project with React framework.
+- Used 1 function to handle the data fetching from the Google Books API.
+  - Function fetches the data and returns a new object that trims off all the un-needed information for the project.
+- Passed the fetched data as props to other components to create a dynamic website.
+
+# Reflection
+
+# Future Goals
+
+- Update the CSS.
+- Add a close button to each modal.
+- Add pages that users that click into.
+
+# Further reading
+
+# Stay in touch
+
+# Licence
+
+# Contribution
+
+# Logs
 
 6/12/2022
 

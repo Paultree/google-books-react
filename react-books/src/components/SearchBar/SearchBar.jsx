@@ -6,9 +6,13 @@ const SearchBar = ({ handleChange, input, handleSubmit, isClicked }) => {
     ? [styles.SearchBar, styles.AfterClick]
     : [styles.SearchBar, styles.BeforeClick];
 
+  const headingClass = isClicked
+    ? [styles.SearchBar_Header, styles.SearchBar_Header_After]
+    : [styles.SearchBar_Header];
+
   return (
     <div className={`${classes.join(" ")}`}>
-      <h1 className={styles.SearchBar_Header}>Google Books Clone</h1>
+      <h1 className={`${headingClass.join(" ")}`}>Booki</h1>
       <form className={styles.SearchForm} onSubmit={handleSubmit}>
         <input
           className={styles.SearchForm_Input}
