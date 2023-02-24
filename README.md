@@ -1,5 +1,7 @@
 # google-books-API
 
+Google books project built with React to reinforce learnings in React.
+
 # Image
 
 ![Alt Text](project-demo.gif)
