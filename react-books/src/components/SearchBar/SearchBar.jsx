@@ -10,9 +10,15 @@ const SearchBar = ({ handleChange, input, handleSubmit, isClicked }) => {
     ? [styles.SearchBar_Header, styles.SearchBar_Header_After]
     : [styles.SearchBar_Header];
 
+  const refreshPage = () => {
+    window.location.reload(false);
+  };
+
   return (
     <div className={`${classes.join(" ")}`}>
-      <h1 className={`${headingClass.join(" ")}`}>Booki</h1>
+      <h1 className={`${headingClass.join(" ")}`} onClick={refreshPage}>
+        Booki
+      </h1>
       <form className={styles.SearchForm} onSubmit={handleSubmit}>
         <input
           className={styles.SearchForm_Input}

@@ -23,4 +23,8 @@
   border-radius: 10px;
   background-color: white;
   box-shadow: 0 0 10px;
+  @media only screen and (max-width: 767px) {
+    font-size: 0.7rem;
+    width: 70%;
+  }
 }
