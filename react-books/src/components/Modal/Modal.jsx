@@ -20,7 +20,7 @@ const Modal = () => {
         <img src={bookDetails.image} />
         <h2>Title: {bookDetails.title}</h2>
         <h4>Authors: {bookDetails.authors}</h4>
-        <p>
+        <p className={styles.Modal_Desc}>
           <b>Description: </b>
           {bookDetails.description}
         </p>
